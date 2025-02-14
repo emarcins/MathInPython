@@ -1,0 +1,1 @@
+from sympy import *#derivative in Pythondef derivative_x(f,x, difference):    m = (f(x + difference) - f(x)) / ((x + difference) - x)    return mdef my_function(k):    return k**2inclination_in_2_point = derivative_x(my_function, 2, 0.0001)print(inclination_in_2_point)#derivative in SymPyy = symbols('y')f = y**3dx_f = diff(f)print(dx_f)

@@ -1,0 +1,1 @@
+from sympy import *from sympy.plotting import plot3d#linear functionx = symbols('x')f = 2*x + 3plot(f)#quadratic functionx = symbols('x')f = x**2 + 3plot(f)#function with two varibalesx, y = symbols('x y')f = 3*x + 5*y plot3d(f)
